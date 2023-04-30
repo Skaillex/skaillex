@@ -4,11 +4,39 @@ body{
     border: 0;
 }
 
+header{
+  padding-left: 84px;
+  padding-top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 ul{
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
+
+.menu-list{
+  display: flex;
+  align-items: center;
+}
+
+.menu-list a{
+  font-family: 'Akrobat SemiBold', sans-serif;
+  color: #000000;
+  line-height: auto;
+}
+
+.menu-list a:hover{
+  color: #FF0000;
+}
+
+.menu-list li{
+  margin-left: 55px;
+}
+
