@@ -43,6 +43,13 @@ ul{
   margin-left: 3.438vw;
 }
 
+.fon{
+  padding-left: 84px;
+  background-image: url(../images/home/yellow-fon.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
 
 a{
