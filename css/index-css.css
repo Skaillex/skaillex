@@ -25,6 +25,26 @@ ul{
   display: flex;
 }
 
+@media screen and (max-width:1200px) {
+ul{
+  display: none;
+}
+
+.container{
+  flex-wrap: wrap;
+}
+
+.small-text{
+  font-family: 'Akrobat SemiBold', sans-serif;
+  font-size: 2.250vw!important;
+  width: 40%;
+  letter-spacing: 0;
+  line-height: auto;
+  margin-left: 3.438vw;
+}
+
+}
+
 a{
   text-decoration: none;
 }
@@ -49,7 +69,7 @@ a{
   margin-left: 55px;
 }
 
-button{
+.menu-list button{
   margin-left: 95px;
   background-color: #CE0002;
   color: white;
@@ -59,24 +79,54 @@ button{
   border:none;
 }
 
-.home-text p{
-  margin-top: 150px;
-  color: #000000;
-  font-family: 'Zona Pro 400', sans-serif;
-  font-size:3.5vw;
-}
-
-.content{
+.container{
+  margin-top: 3vw;
   display: flex;
   justify-content: space-between;
 }
 
-.horse{
-  margin-right: 40px;
+.container-text{
+  margin-top: 4vw;
+  font-size: 50px;
+  font-family: 'Zona Pro', sans-serif;
+  letter-spacing: 0;
+  line-height: auto;
 }
 
-.horse img{
-  width: 36.938vw;
-  height: 34.177vw;
+.container-text p{
+  font-family: 'Zona Pro', sans-serif!important;
+  margin: 0;
+  font-weight: bold;
+}
+
+.hourse img{
+  width: 80%;
+  height: auto;
+  float: right;
+}
+
+.hourse{
+  width: 100%;
+  margin-right: 46px;
+}
+
+.button-content{
+  margin-left: 95px;
+  background-color: #CE0002;
+  color: white;
+  font-family: 'Akrobat Bold', sans-serif;
+  font-size: 20px;
+  padding: 25px 14px 13px 15px;
+  border:none;
+  text-align: left;
+}
+
+.small-text{
+  font-family: 'Akrobat SemiBold', sans-serif;
+  font-size: 1.250vw;
+  width: 40%;
+  letter-spacing: 0;
+  line-height: auto;
+  margin-left: 3.438vw;
 }
 
