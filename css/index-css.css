@@ -25,7 +25,13 @@ ul{
   display: flex;
 }
 
+button{
+  cursor: pointer;
+}
+
+
 @media screen and (max-width:1200px) {
+
 ul{
   display: none;
 }
@@ -50,6 +56,10 @@ ul{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+body{
+  background-color: #FFEA2F;
+};
 }
 
 a{
@@ -74,6 +84,7 @@ a{
 
 .menu-list li{
   margin-left: 55px;
+  font-size: 20px;
 }
 
 .menu-list button{
@@ -115,6 +126,7 @@ a{
 .hourse{
   width: 100%;
   margin-right: 46px;
+  margin-bottom: 20px;
 }
 
 .button-content{
@@ -131,9 +143,21 @@ a{
 .small-text{
   font-family: 'Akrobat SemiBold', sans-serif;
   font-size: 1.250vw;
-  width: 40%;
+  width: 60%;
   letter-spacing: 0;
   line-height: auto;
   margin-left: 3.438vw;
+}
+button:hover{
+  color: #CE0002;
+  background-color: white;
+}
+
+.list-networks img{
+  margin-top: 10px;
+}
+
+.list-networks img:hover{
+  filter: invert(1);
 }
 
