@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fon{
+    padding-left: 84px;
+    background-image: url(../images/home/yellow-fon.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 650px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between!important;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+
+.menu-list a{
+    font-family: 'Akrobat SemiBold', sans-serif;
+    color: #000000;
+    line-height: auto;
+    text-align: right;
+}
+
+.menu-list a:hover{
+    color: #FF0000;
+}
+
+.menu-list li{
+    margin-left: 55px;
+    font-size: 20px;
+}
+
+.menu-list button{
+    margin-left: 95px;
+    background-color: #CE0002;
+    color: white;
+    font-family: 'Akrobat Bold', sans-serif;
+    font-size: 20px;
+    padding: 45px;
+    border:none;
+}
+
+.container{
+    margin-top: 2%;
+    display:flex;
+    align-items: center;
+}
+
+.container-text{
+    padding-left: 67px;
+    width:50%;
+}
+
+.container-text p{
+    font-family: 'Akrobat SemiBold', sans-serif;
+    font-size: 18px;
+}
+
+.container-text h1{
+    font-family: 'Zona Pro', sans-serif;
+    font-size: 3rem;
+    margin: 0!important;
+    display: inline;
+}
+
+.list-card{
+    margin-left: 181px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.list-card img{
+    margin-left: 220px;
+}
+
+.list-card img:hover{
+    filter: invert(1);
+}
+
+@media screen and (max-width:1200px) {
+
+    ul{
+    display: none;
+    }
+    
+    body{
+    background-color: #FFEA2F;
+    };
+    }
+
+    button:hover{
+        color: #CE0002;
+        background-color: white;
+    }
+
+
+    .list-networks img{
+        margin-top: 10px;
+    }
+
+    .list-networks img:hover{
+        filter: invert(1);
+    }
